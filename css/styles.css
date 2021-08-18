@@ -85,7 +85,7 @@ p {
 /* container */
 .container {
   position: relative;
-  width: 100%;
+  width: 95%;
   max-width: var(--max-width);
   margin: 5rem auto;
   min-height: 100rem;
@@ -297,6 +297,7 @@ p {
   .container {
     margin: 0 auto;
     grid-template-columns: 1fr;
+    width: 100%;
   }
 
   .hobbies__list {
